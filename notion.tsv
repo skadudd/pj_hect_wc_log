@@ -1,56 +1,64 @@
 경로	활동	act_type	click_type	key	value
-challenge/home	화면 조회	pageview		page_id, channel	life/challenge/home, Rround
-challenge/home	내 챌린지 클릭	click	메인	page_id, click_text	life/challenge/home, 내 챌린지
-challenge/home	상단 카드 배너 노출	impression		page_id, banner_id, banner_url, banner_text, order, impression_type	life/challenge/home, {{배너 id}}, {{배너 랜딩 url}}, {{배너 TEXT}}, {{배너 순서}}, 메인 상단 카드 배너
-challenge/home	상단 카드 배너 클릭	click	메인 상단 카드 배너	page_id, banner_id, banner_url, banner_text, order	life/challenge/home, {{배너 id}}, {{배너 랜딩 url}}, {{배너 TEXT}}, {{배너 순서}}
-challenge/home	상단 카드 스와이프	swipe		page_id, swipe_direction	life/{{url path}}, {{스와이프방향}}
-challenge/home	상세 챌린지 클릭	click	상세 챌린지	page_id, channel, click_text, list_title, list_order, chal_order, challengeName, challengeSeq, mainTitle, activeParticipantCount, sticker	life/challenge/home, Rround, {{클릭한 챌린지의 이름}}, {{리스트 이름}}, {{리스트 순서}}, {{챌린지 순서}}, {{챌린지명}}, {{챌린지ID}}, {{홍보 문구}}, {{참여자 수}}, {{스티커 텍스트}}
-challenge/home	전체 클릭	click	상세 챌린지	page_id, channel, click_text, list_title, list_order, chal_order	life/challenge/home, Rround, {{전체보기 / 전체 챌린지}}, {{리스트 이름}}, {{리스트 순서}}, {{챌린지 순서}}
-challenge/home	피드 클릭	click	챌린지 피드	page_id, channel, click_text, list_title, list_order, profileSeq, vertifyCount, feedTitle, feedSeq	life/challenge/home, Rround, {{클릭한 피드 이름}}, {{리스트 이름}}, {{리스트 순서}}, {{피드 작성자의 휘슬 고유 회원 번호}}, {{인증 챌린지 수}}, {{피드 이름}}, {{피드 ID}}
-challenge/home	유저 프로필 클릭	click	유저프로필	page_id, channel, click_text, list_title, list_order, profileSeq, vertifyCount	life/challenge/home, Rround, {{클릭한 유저 프로필 텍스트}}, {{리스트 이름}}, {{리스트 순서}}, {{피드 작성자의 휘슬 고유 회원 번호}}, {{인증 챌린지 수}}
-challenge/home	광고 클릭	click	광고	page_id, channel, click_text, list_order, ad_id	life/challenge/home, Rround, {{클릭한 광고 텍스트}}, {{리스트 순서}}, {{광고 ID}}
-challenge/home	카테고리 클릭	click	카테고리	page_id, channel, click_text, list_title, list_order, ctgr_name	life/challenge/home, Rround, {{카테고리명}}, {{리스트 이름}}, {{리스트 순서}}, {{카테고리명}}
-challenge/home	검색 돋보기 클릭	click	메인	page_id, click_text	life/challenge/home, 검색 돋보기
-challenge/home	대화 말풍선 클릭	click	메인	page_id, click_text	life/challenge/home, 대화 말풍선
-challenge/home	내 프로필 클릭	click	메인	page_id, click_text	life/challenge/home, 내 프로필
-challenge/home	플로팅 > 만들기 클릭	click	메인	page_id, click_text	life/challenge/home, 만들기
-challenge/home	플로팅 > 진행중 챌린지 클릭	click	진행중 챌린지	page_id, channel, click_text, challengeSeq	life/challenge/home, Rround, 진행중 챌린지, {{챌린지 ID}}
-challenge/my_challenge	화면 조회	pageview		page_id, channel	life/challenge/my_challenge, Rround
-challenge/my_challenge	챌린지 도전하기 클릭	click	내 챌린지	page_id, click_text	life/challenge/my_challenge, 챌린지 도전하기
-challenge/my_challenge	진행중인 챌린지 클릭	click	내 챌린지	page_id, channel, click_text, chal_order, challengeSeq	life/challenge/my_challenge, Rround, {{클릭한 챌린지 이름}}, {{챌린지 순서}}, {{챌린지 ID}}
-challenge/my_challenge	진행중인 챌린지 삭제 클릭	click	내 챌린지	page_id, channel, click_text, chal_order, challengeSeq	life/challenge/my_challenge, Rround, 삭제, {{챌린지 순서}}, {{챌린지 ID}}
-challenge/my_challenge	팝업 노출 (삭제)	popup_imp		page_id, channel, popup_id, popup_title, popup_msg	life/challenge/my_challenge, Rround, {{팝업 상단 볼드 텍스트}}, {{팝업 제목}}, {{팝업 내 설명 문구}}
-challenge/my_challenge	팝업 클릭 (삭제)	popup_click	내 챌린지	page_id, channel, click_text, popup_id, popup_title, popup_msg, cta_text	life/challenge/my_challenge, Rround, {{삭제/클릭 텍스트 명}}, {{팝업 상단 볼드 텍스트}}, {{팝업 제목}}, {{팝업 내 설명 문구}}, {{CTA 텍스트}}
-challenge/my_challenge	내가 만든 챌린지 > 수정 클릭	click	내 챌린지	page_id, channel, click_text, challengeSeq	life/challenge/my_challenge, Rround, 수정, {{챌린지 ID}}
-challenge/my_challenge	내가 만든 챌린지 > 종료 클릭	click	내가 만든 챌린지	page_id, click_text	life/challenge/my_challenge, 종료
-challenge/my_challenge	팝업 노출 (종료)	popup_imp		page_id, channel, popup_id, popup_title, popup_msg	life/challenge/my_challenge, Rround, {{팝업 상단 볼드 텍스트}}, {{팝업 제목}}, {{팝업 내 설명 문구}}
-challenge/my_challenge	팝업 클릭 (종료)	popup_click	내 챌린지	page_id, channel, click_text, popup_id, popup_title, popup_msg, cta_text	life/challenge/my_challenge, Rround, {{삭제/클릭 텍스트 명}}, {{팝업 상단 볼드 텍스트}}, {{팝업 제목}}, {{팝업 내 설명 문구}}, {{CTA 텍스트}}
-challenge/best_challenger	화면 조회	pageview		page_id, channel	life/challenge/best_challenger, Rround
-challenge/best_challenger	피드 클릭	click	챌린지 피드	page_id, channel, click_text, chal_order, profileSeq, vertifyCount, feedTitle, feedSeq	life/challenge/best_challenger, Rround, {{클릭한 피드 이름}}, {{챌린지 순서}}, {{피드 작성자의 휘슬 고유 회원 번호}}, {{인증 챌린지 수}}, {{클릭한 피드 이름}}, {{피드 ID}}
-challenge/best_challenger	유저 프로필 클릭	click	유저 프로필	page_id, channel, click_text, chal_order, profileSeq, vertifyCount	life/challenge/best_challenger, Rround, {{클릭한 유저 프로필명}}, {{챌린지 순서}}, {{피드 작성자의 휘슬 고유 회원 번호}}, {{인증 챌린지 수}}
-challenge/all_challenge_list	화면 조회	pageview		page_id, channel	life/challenge/all_challenge_list, Rround
-challenge/all_challenge_list	카테고리 클릭	click	카테고리	page_id, channel, click_text, chal_order, ctgr_name	life/challenge/all_challenge_list, Rround, {{클릭한 카테고리명}}, {{챌린지 순서}}, {{카테고리명}}
-challenge/all_challenge_list	상세 챌린지 클릭	click	상세 챌린지	page_id, channel, click_text, list_title, list_order, chal_order, challengeName, challengeSeq, mainTitle, activeParticipantCount, sticker	life/challenge/all_challenge_list, Rround, {{클릭한 상세 챌린지명}}, {{리스트 이름}}, {{리스트 순서}}, {{챌린지 순서}}, {{챌린지명}}, {{챌린지ID}}, {{홍보 문구}}, {{참여자 수}}, {{스티커 텍스트}}
-challenge/all_challenge_list	피드 클릭	click	챌린지 피드	page_id, channel, click_text, list_order, feedSeq	life/challenge/all_challenge_list, Rround, {{클릭한 피드명}}, {{리스트 순서}}, {{피드ID}}
-challenge/all_challenge_list	광고 클릭	click	광고	page_id, channel, click_text, list_order, ad_id	life/challenge/all_challenge_list, Rround, {{클릭한 광고명}}, {{리스트 순서}}, {{광고 ID}}
-challenge/modify	화면 조회	pageview		page_id	life/challenge/modify
-challenge/challenge_detail	화면 조회 (작성자 정보)	pageview		page_id, channel, profileSeq, challengeName, challengeSeq, activeParticipantCount, totalFeedCount	life/challenge/challenge_detail, Rround, {{피드 작성자의 휘슬 고유 회원 번호}}, {{챌린지명}}, {{챌린지ID}}, {{참여자수}}, {{게시물 수}}
-challenge/challenge_detail	화면 조회 (기본)	pageview		page_id, channel	life/challenge/challenge_detail, Rround
-challenge/challenge_detail	CTA 클릭 (챌린지 종료, 수정)	click	CTA	page_id, channel, click_text, cta_text	life/challenge/challenge_detail, Rround, {{클릭 텍스트}}, {{cta 텍스트}}
-challenge/challenge_detail	팝업 노출	popup_imp		page_id, channel, popup_id, popup_title, popup_msg	life/challenge/challenge_detail, Rround, {{팝업 상단 볼드 텍스트}}, {{팝업 제목}}, {{팝업 내 설명 문구}}
-challenge/challenge_detail	팝업 클릭	popup_click	popup	page_id, channel, click_text, popup_id, popup_title, popup_msg, cta_text	life/challenge/challenge_detail, Rround, {{클릭 텍스트}}, {{팝업 상단 볼드 텍스트}}, {{팝업 제목}}, {{팝업 내 설명 문구}}, {{cta 텍스트}}
-challenge/challenge_detail	CTA 클릭 (기록하기, 인증하기)	click	CTA	page_id, channel, click_text, cta_text	life/challenge/challenge_detail, Rround, {{클릭 텍스트}}, {{cta 텍스트}}
-challenge/challenge_detail	피드 클릭	click	피드	page_id, channel, click_text, list_title, list_order, profileSeq, vertifyCount, feedTitle, feedSeq	life/challenge/challenge_detail, Rround, {{클릭 텍스트}}, {{리스트 이름}}, {{리스트 순서}}, {{피드 작성자의 휘슬 고유 회원번호}}, {{인증 챌린지 수}}, {{피드 이름}}, {{피드 ID}}
-challenge/challenge_detail	인증하기 > 상품 태그 하단 팝업 > 돋보기 클릭	click	검색	page_id, channel, click_text, kwd_text, kwd_type	life/challenge/challenge_detail, Rround, {{클릭 텍스트}}, {{검색어}}, {{추천검색어 여부}}
-challenge/challenge_detail	인증하기 > 상품 태그 하단 팝업 > 카테고리 클릭	click	카테고리	page_id, channel, click_text, ctgr_name	life/challenge/challenge_detail, Rround, {{클릭 텍스트}}, {{카테고리 이름}}
-challenge/challenge_detail	인증하기 > 상품 태그 하단 팝업 > CTA 클릭	click	CTA	page_id, channel, click_text, cta_text, prd_name, prd_code	life/challenge/challenge_detail, Rround, {{클릭 텍스트}}, {{CTA 텍스트}}, {{상품명}}, {{상품 ID}}
-challenge/challenge_detail	CTA 클릭 (올리기, 상품 태그)	click	CTA	page_id, channel, click_text, cta_text	life/challenge/challenge_detail, Rround, {{클릭 텍스트}}, {{CTA 텍스트}}
-challenge/challenge_detail	팝업 노출 (리워드)	popup_imp		page_id, channel, popup_id, popup_title, popup_msg	life/challenge/challenge_detail, Rround, {{팝업 상단 볼드 텍스트}}, {{팝업 제목}}, {{팝업 내 설명 문구}}
-challenge/challenge_detail	팝업 클릭 (리워드)	popup_click	popup	page_id, channel, click_text, popup_id, popup_title, popup_msg, cta_text, reward_price	life/challenge/challenge_detail, Rround, {{클릭 텍스트}}, {{팝업 상단 볼드 텍스트}}, {{팝업 제목}}, {{팝업 내 설명 문구}}, {{확인, y/n로 구분되어 있는 버튼}}, {{금액}}
-challenge/challenge_search	화면 조회	pageview		page_id, channel	life/challenge/challenge_search, Rround
-challenge/challenge_search	상단 검색 돋보기 클릭	click	검색	page_id, channel, click_text, kwd_text, kwd_type	life/challenge/challenge_search, Rround, {{클릭 텍스트}}, {{검색어}}, {{추천 검색어 여부}}
-challenge/challenge_search	추천 검색어 클릭	click	검색	page_id, channel, click_text, kwd_text, list_title	life/challenge/challenge_search, Rround, {{클릭 텍스트}}, {{검색어}}, {{리스트명}}
-challenge/challenge_search_result	화면 조회	pageview		page_id, channel	life/challenge/challenge_search_result, Rround
-challenge/challenge_search_result	상단 검색 돋보기 클릭	click	검색	page_id, channel, click_text, kwd_text	life/challenge/challenge_search_result, Rround, {{클릭 텍스트}}, {{검색어}}
-challenge/challenge_search_result	프로필 클릭	click	검색	page_id, channel, click_text, profileSeq, sticker, activeParticipantCount	life/challenge/challenge_search_result, Rround, {{클릭한 프로필명}}, {{피드 프로필 주인의 휘슬 고유 회원 번호}}, {{스티커}}, {{참여자 수}}
-challenge/challenge_search_result	피드 클릭	click	검색	page_id, channel, click_text, list_order	life/challenge/challenge_search_result, Rround, {{클릭한 피드명}}, {{리스트 순서}}
+feed/rising_hashtag	화면 조회	pageview		page_id	{{page_id}}
+feed/rising_hashtag	탭 클릭	click	탭	page_id, click_text	{{page_id}}, {{요즘뜨는#/발견/팔로잉}}
+feed/rising_hashtag	탭 스와이프	swipe	탭	page_id, swipe_text	{{page_id}}, {{요즘뜨는#/발견/팔로잉}}
+feed/rising_hashtag	피드 게시물 클릭	click	피드게시물	page_id, click_text, feedSeq, profileSeq, tag, feedType	{{page_id}}, {{클릭한 피드의 제목}}, {{피드 id}}, {{피드 작성자 프로필 id}}, {{해시태그 타이틀}}, {{피드 타입}}
+feed/discovery	화면 조회	pageview		page_id	{{page_id}}
+feed/discovery	탭 클릭	click	탭	page_id, click_text	{{page_id}}, {{요즘뜨는#/발견/팔로잉}}
+feed/discovery	탭 스와이프	swipe	탭	page_id, swipe_text	{{page_id}}, {{요즘뜨는#/발견/팔로잉}}
+feed/discovery	피드 게시물 클릭	click	피드게시물	page_id, click_text, feedSeq, profileSeq, tag, likeCount, feedType	{{page_id}}, {{클릭한 피드의 제목}}, {{피드 id}}, {{피드 작성자 프로필 id}}, {{게시글 내용 내의 해시태그}}, {{좋아요 수}}, {{피드 타입}}
+feed/discovery	광고 노출	impression		page_id, ad_id	{{page_id}}, {{네트워크 광고 ID}}
+feed/discovery	광고 클릭	click	광고	page_id, ad_id	{{page_id}}, {{네트워크 광고 ID}}
+feed/following	화면 조회	pageview		page_id	{{page_id}}
+feed/following	탭 클릭	click	탭	page_id, click_text	{{page_id}}, {{요즘뜨는#/발견/팔로잉}}
+feed/following	탭 스와이프	swipe	탭	page_id, swipe_text	{{page_id}}, {{요즘뜨는#/발견/팔로잉}}
+feed/following	피드 게시물 클릭	click	피드게시물	page_id, click_text, feedSeq, profileSeq, tag, likeCount, feedType	{{page_id}}, {{클릭한 피드의 제목}}, {{피드 id}}, {{피드 작성자 프로필 id}}, {{게시글 내용 내의 해시태그}}, {{좋아요 수}}, {{피드 타입}}
+feed/following	광고 노출	impression		page_id, ad_id	{{page_id}}, {{네트워크 광고 ID}}
+feed/following	광고 클릭	click	광고	page_id, click_text, ad_id	{{page_id}}, {{클릭한 광고제목}}, {{네트워크 광고 ID}}
+search/main	화면 조회	pageview		page_id	{{page_id}}
+search/main	최근 검색어 노출	impression		page_id, kwd_recent	{{page_id}}, {{최근 검색어}}
+search/main	최근 검색어 클릭	click	검색어	page_id, click_text, kwd_recent	{{page_id}}, {{클릭한텍스트명}}, {{최근 검색어}}
+search/main	추천 검색어 노출	impression		page_id, kwd_recomm	{{page_id}}, {{추천 검색어}}
+search/main	추천 검색어 클릭	click	검색어	page_id, click_text, kwd_recomm	{{page_id}}, {{클릭한텍스트명}}, {{추천 검색어}}
+search/main	검색 아이콘 클릭	click	검색어	page_id, click_text, kwd_text	{{page_id}}, 검색아이콘, {{검색 키워드}}
+search/feed	화면 조회	pageview		page_id, kwd_text	{{page_id}}, {{검색 키워드}}
+search/feed	탭 클릭	click	탭	page_id, click_text	{{page_id}}, {{피드/프로필}}
+search/feed	스크롤	scroll		page_id, scroll_rate	{{page_id}}, {{scroll_rate}}
+search/feed	피드 게시물 클릭	click	피드게시물	page_id, feedSeq, profileSeq, tag, likeCount, feedType	{{page_id}}, {{피드 id}}, {{피드 작성자 프로필 id}}, {{게시글 내용 내의 해시태그}}, {{좋아요 수}}, {{피드 타입}}
+search/profile	화면 조회	pageview		page_id, kwd_text	{{page_id}}, {{검색 키워드}}
+search/profile	탭 클릭	click	탭	page_id, click_text	{{page_id}}, {{피드/프로필}}
+search/profile	프로필 클릭	click	프로필	page_id, profileSeq	{{page_id}}, {{프로필 id}}
+search/no_result	화면 조회	pageview		page_id, kwd_text	{{page_id}}, {{검색 키워드}}
+feed/profile/feed	화면 조회	pageview		page_id, profileSeq	{{page_id}}, {{주인 프로필 id}}
+feed/profile/feed	탭 클릭	click	탭	page_id, profileSeq, click_text	{{page_id}}, {{주인 프로필 id}}, {{추천/피드/컬랙션/리뷰}}
+feed/profile/feed	피드 게시물 클릭	click	피드게시물	page_id, click_text, profileSeq, feedSeq	{{page_id}}, {{클릭한 피드의 제목}}, {{주인 프로필 id}}, {{피드 id}}
+feed/profile/feed	스토어 버튼 클릭	click	스토어버튼	page_id, profileSeq, click_text	{{page_id}}, {{주인 프로필 id}}, 스토어
+feed/profile/collection	화면 조회	pageview		page_id, profileSeq	{{page_id}}, {{주인 프로필 id}}
+feed/profile/collection	탭 클릭	click	탭	page_id, profileSeq, click_text	{{page_id}}, {{주인 프로필 id}}, {{추천/피드/컬랙션/리뷰}}
+feed/profile/collection	스토어 버튼 클릭	click	스토어버튼	page_id, profileSeq, click_text	{{page_id}}, {{주인 프로필 id}}, 스토어
+feed/profile/collection	피드 게시물 클릭	click	피드게시물	page_id, click_text, profileSeq, feedSeq	{{page_id}}, {{클릭한 피드의 제목}}, {{주인 프로필 id}}, {{피드 id}}
+feed/profile/review	화면 조회	pageview		page_id, profileSeq	{{page_id}}, {{주인 프로필 id}}
+feed/profile/review	탭 클릭	click	탭	page_id, profileSeq, click_text	{{page_id}}, {{주인 프로필 id}}, {{추천/피드/컬랙션/리뷰}}
+feed/profile/review	스토어 버튼 클릭	click	스토어버튼	page_id, profileSeq, click_text	{{page_id}}, {{주인 프로필 id}}, 스토어
+feed/profile/review	리뷰 상품 클릭	click	리뷰상품	page_id, click_text, profileSeq, goodsId	{{page_id}}, {{클릭한 상품이름}}, {{작성자 프로필 id}}, {{상품코드}}
+feed/profile/review	리뷰 콘텐츠 클릭	click	리뷰콘텐츠	page_id, click_text, profileSeq, goodsId, prd_review_score, prd_review_id	{{page_id}}, {{클릭한 콘텐츠이름}}, {{작성자 프로필 id}}, {{상품코드}}, {{리뷰 별점}}, {{리뷰id}}
+feed/profile/recommend	화면 조회	pageview		page_id, feedSeq, profileSeq	{{page_id}}, {{피드 id}}, {{주인 프로필 id}}
+feed/profile/recommend	탭 클릭	click	탭	page_id, profileSeq, click_text	{{page_id}}, {{주인 프로필 id}}, {{추천/피드/컬랙션/리뷰}}
+feed/profile/recommend	스크롤	scroll		page_id, feedSeq, profileSeq, scroll_rate	{{page_id}}, {{피드 id}}, {{주인 프로필 id}}, {{scroll_rate}}
+feed/profile/recommend	상품 태그 클릭	click	상품태그	page_id, click_text, feedSeq, profileSeq, tag, likeCount, feedType, goodsId	{{page_id}}, {{클릭한 상품태그명}}, {{피드 id}}, {{피드 작성자 프로필 id}}, {{게시글 내용 내의 해시태그}}, {{좋아요 수}}, {{피드 타입}}, {{상품코드}}
+feed/profile/recommend	챌린지 태그 클릭	click	챌린지태그	page_id, click_text, feedSeq, profileSeq, tag, likeCount, feedType, challengeSeq	{{page_id}}, {{클릭한 챌린지태그명}}, {{피드 id}}, {{피드 작성자 프로필 id}}, {{게시글 내용 내의 해시태그}}, {{좋아요 수}}, {{피드 타입}}, {{챌린지 id}}
+feed/profile/recommend	더보기 클릭	click	게시물TEXT더보기	page_id, click_text, feedSeq, profileSeq, tag, likeCount, feedType	{{page_id}}, 더보기, {{피드 id}}, {{피드 작성자 프로필 id}}, {{게시글 내용 내의 해시태그}}, {{좋아요 수}}, {{피드 타입}}
+feed/profile/recommend	세차장 위치 버튼 클릭	click	세차장위치버튼	page_id, click_text, feedSeq, profileSeq, tag, likeCount, feedType	{{page_id}}, {{세차장명}}, {{피드 id}}, {{피드 작성자 프로필 id}}, {{게시글 내용 내의 해시태그}}, {{좋아요 수}}, {{피드 타입}}
+feed/profile/recommend	바로가기 클릭	click	바로가기	page_id, click_text, feedSeq, profileSeq, tag, likeCount, feedType	{{page_id}}, {{휘슬 세차 바로가기 / 픽딜 바로가기}}, {{피드 id}}, {{피드 작성자 프로필 id}}, {{게시글 내용 내의 해시태그}}, {{좋아요 수}}, {{피드 타입}}
+feed/post/detail	화면 조회	pageview		page_id, feedSeq, profileSeq	{{page_id}}, {{피드 id}}, {{피드 작성자 프로필id}}
+feed/post/detail	스크롤	scroll		page_id, feedSeq, profileSeq, scroll_rate	{{page_id}}, {{피드 id}}, {{주인 프로필 id}}, {{scroll_rate}}
+feed/post/detail	상품 태그 클릭	click	상품태그	page_id, click_text, feedSeq, profileSeq, tag, likeCount, feedType, goodsId	{{page_id}}, {{클릭한 상품태그명}}, {{피드 id}}, {{피드 작성자 프로필 id}}, {{게시글 내용 내의 해시태그}}, {{좋아요 수}}, {{피드 타입}}, {{상품코드}}
+feed/post/detail	챌린지 태그 클릭	click	챌린지태그	page_id, click_text, feedSeq, profileSeq, tag, likeCount, feedType, challengeSeq	{{page_id}}, {{클릭한 챌린지태그명}}, {{피드 id}}, {{피드 작성자 프로필 id}}, {{게시글 내용 내의 해시태그}}, {{좋아요 수}}, {{피드 타입}}, {{챌린지 id}}
+feed/post/detail	더보기 클릭	click	게시물TEXT더보기	page_id, click_text, feedSeq, profileSeq, tag, likeCount, feedType	{{page_id}}, 더보기, {{피드 id}}, {{피드 작성자 프로필 id}}, {{게시글 내용 내의 해시태그}}, {{좋아요 수}}, {{피드 타입}}
+feed/post/detail	세차장 위치 버튼 클릭	click	세차장위치버튼	page_id, click_text, feedSeq, profileSeq, tag, likeCount, feedType	{{page_id}}, {{세차장명}}, {{피드 id}}, {{피드 작성자 프로필 id}}, {{게시글 내용 내의 해시태그}}, {{좋아요 수}}, {{피드 타입}}
+feed/post/detail	바로가기 클릭	click	바로가기	page_id, click_text, feedSeq, profileSeq, tag, likeCount, feedType	{{page_id}}, {{휘슬 세차 바로가기 / 픽딜 바로가기}}, {{피드 id}}, {{피드 작성자 프로필 id}}, {{게시글 내용 내의 해시태그}}, {{좋아요 수}}, {{피드 타입}}
+feed/post/detail	광고 노출	impression		page_id, ad_id	{{page_id}}, {{네트워크 광고 ID}}
+feed/post/detail	광고 클릭	click	광고	page_id, click_text, ad_id	{{page_id}}, {{클릭한 광고제목}}, {{네트워크 광고 ID}}
+feed/message/notice	광고 노출	impression		page_id, ad_id	{{page_id}}, {{네트워크 광고 ID}}
+feed/message/notice	광고 클릭	click	광고	page_id, click_text, ad_id	{{page_id}}, {{클릭한 광고 제목}}, {{네트워크 광고 ID}}
+```
