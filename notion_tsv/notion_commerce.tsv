@@ -1,0 +1,156 @@
+경로	활동	act_type	click_type	key	value
+0. 공통	상단 탭 클릭	click	상단 탭	page_id, click_text, order	{{page_id}}, {{탭 이름}}, {{탭 순서}}
+0. 공통	하단 GNB 클릭	click	하단 GNB	page_id, click_text, order	{{page_id}}, {{GNB 이름}}, {{GNB 순서}}
+0. 공통	검색 아이콘 클릭	click	검색 아이콘	page_id, tab_name	{{page_id}}, {{탭 이름}}
+0. 공통	장바구니 아이콘 클릭	click	장바구니 아이콘	page_id, tab_name	{{page_id}}, {{탭 이름}}
+0. 공통	스크롤	scroll		page_id, area_name, area_order	{{page_id}}, {{영역 TEXT}}, {{영역 순서}}
+1. 스토어 홈 (메인)	스토어 홈 (메인) 조회	pageview		page_id	{{page_id}}
+1. 스토어 홈 (메인)	스크롤	scroll		page_id, area_name, area_order	{{page_id}}, {{영역 TEXT}}, {{영역 순서}}
+1. 스토어 홈 (메인)	퀵버튼 클릭	click	퀵버튼	page_id, click_text	{{page_id}}, {{퀵버튼 이름}}
+1. 스토어 홈 (메인)	배너 노출	impression		page_id, banner_id, banner_url, banner_order, banner_position	{{page_id}}, {{배너 id}}, {{배너 랜딩 url}}, {{배너 순서}}, {{배너 위치}}
+1. 스토어 홈 (메인)	배너 클릭	click	배너	page_id, banner_id, banner_url, banner_order, banner_position	{{page_id}}, {{배너 id}}, {{배너 랜딩 url}}, {{배너 순서}}, {{배너 위치}}
+1. 스토어 홈 (메인)	상품 클릭 (있는 정보만 수집)	click	상품	page_id, area_name, area_order, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{영역 TEXT}}, {{영역 순서}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+1. 스토어 홈 (메인)	찜하기 클릭 - 상품 찜하기 (있는 정보만 수집)	click	상품 찜하기	page_id, area_name, area_order, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{영역 TEXT}}, {{영역 순서}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+1. 스토어 홈 (메인)	더보기 클릭	click	더보기	page_id, area_name, click_text	{{page_id}}, {{영역 TEXT}}, {{더보기 이름}}
+1. 스토어 홈 (메인)	메인 하단 팝업 배너 노출	impression		page_id, banner_id, banner_url, banner_order, banner_position	{{page_id}}, {{배너 id}}, {{배너 랜딩 url}}, {{배너 순서}}, {{배너 위치}}
+1. 스토어 홈 (메인)	메인 하단 팝업 배너 클릭	click	배너	page_id, banner_id, banner_url, banner_order, banner_position	{{page_id}}, {{배너 id}}, {{배너 랜딩 url}}, {{배너 순서}}, {{배너 위치}}
+2. 랭킹	랭킹 페이지 조회	pageview		page_id	{{page_id}}
+2. 랭킹	스크롤	scroll		page_id, area_name	{{page_id}}, {{영역 TEXT}}
+2. 랭킹	인기 검색어 클릭	click	인기 검색어	page_id, srch_kwd, kwd_rank, kwd_ctgr	{{page_id}}, {{검색어}}, {{검색어 순위}}, {{검색어 카테고리}}
+2. 랭킹	카테고리 탭 클릭	click	카테고리 탭	page_id, click_text	{{page_id}}, {{카테고리 탭 이름}}
+2. 랭킹	필터 클릭	click	필터	page_id, prd_filter	{{page_id}}, {{필터 이름}}
+2. 랭킹	상품 클릭 (있는 정보만 수집)	click	상품	page_id, area_name, area_order, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{영역 TEXT}}, {{영역 순서}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+2. 랭킹	찜하기 클릭 - 상품 찜하기 (있는 정보만 수집)	click	상품 찜하기	page_id, area_name, area_order, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{영역 TEXT}}, {{영역 순서}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+2. 랭킹	배너 노출	impression		page_id, banner_id, banner_url, banner_order	{{page_id}}, {{배너 id}}, {{배너 랜딩 url}}, {{배너 순서}}
+2. 랭킹	배너 클릭	click	배너	page_id, banner_id, banner_url, banner_order	{{page_id}}, {{배너 id}}, {{배너 랜딩 url}}, {{배너 순서}}
+3. 타임딜	타임딜 페이지 조회	pageview		page_id	{{page_id}}
+3. 타임딜	스크롤	scroll		page_id, area_name, area_order	{{page_id}}, {{영역 TEXT}}, {{영역 순서}}
+3. 타임딜	상품 클릭 (있는 정보만 수집)	click	상품	page_id, area_name, area_order, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_is_ad	{{page_id}}, {{영역 TEXT}}, {{영역 순서}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{광고 상품 여부}}
+3. 타임딜	찜하기 클릭 (있는 정보만 수집)	click	상품 찜하기	page_id, area_name, area_order, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_is_ad	{{page_id}}, {{영역 TEXT}}, {{영역 순서}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{광고 상품 여부}}
+4. 기획전 - 목록타입	기획전-목록타입 조회	pageview		page_id, exh_id, exh_name, exh_tag	{{page_id}}, {{기획전 id}}, {{기획전 제목}}, {{태그}}
+4. 기획전 - 목록타입	기획전 리스트 클릭	click	기획전 리스트	page_id, exh_id, exh_name, exh_tag	{{page_id}}, {{기획전 id}}, {{기획전 제목}}, {{태그}}
+5. 기획전 - 상세타입	기획전-상세타입 조회	pageview		page_id	{{page_id}}
+5. 기획전 - 상세타입	더보기 클릭	click	더보기	page_id, click_text	{{page_id}}, {{더보기 이름}}
+5. 기획전 - 상세타입	필터 클릭	click	필터	page_id, prd_filter	{{page_id}}, {{필터 이름}}
+5. 기획전 - 상세타입	칩버튼 클릭	click	칩버튼	page_id, click_text	{{page_id}}, {{칩버튼 이름}}
+5. 기획전 - 상세타입	카테고리 탭 클릭	click	카테고리 탭	page_id, click_text	{{page_id}}, {{카테고리 탭 이름}}
+5. 기획전 - 상세타입	상품 클릭 (있는 정보만 수집)	click	상품	page_id, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+5. 기획전 - 상세타입	찜하기 클릭 - 상품 찜하기 (있는 정보만 수집)	click	상품 찜하기	page_id, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+6. 혜택 모아보기	혜택 모아보기 조회	pageview		page_id	{{page_id}}
+6. 혜택 모아보기	퀵버튼 클릭	click	퀵버튼	page_id, click_text	{{page_id}}, {{퀵버튼 이름}}
+6. 혜택 모아보기	칩버튼 클릭	click	칩버튼	page_id, click_text	{{page_id}}, {{칩버튼 이름}}
+6. 혜택 모아보기	이벤트 노출	impression		page_id, event_id, event_name	{{page_id}}, {{이벤트 id}}, {{이벤트 제목}}
+6. 혜택 모아보기	이벤트 클릭	click	이벤트	page_id, event_id, event_name	{{page_id}}, {{이벤트 id}}, {{이벤트 제목}}
+6. 혜택 모아보기	배너 노출	impression		page_id, banner_id, banner_url, banner_order	{{page_id}}, {{배너 id}}, {{배너 랜딩 url}}, {{배너 순서}}
+6. 혜택 모아보기	배너 클릭	click	배너	page_id, banner_id, banner_url, banner_order	{{page_id}}, {{배너 id}}, {{배너 랜딩 url}}, {{배너 순서}}
+7-0. 상품 상세 페이지 - 공통	상품 상세 페이지 조회	pageview		page_id, tab_name, prd_code, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt	{{page_id}}, {{탭 이름}}, {{상품 코드}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}
+7-0. 상품 상세 페이지 - 공통	구매하기 버튼 클릭 (옵션 선택 전)	click	구매 버튼	page_id, tab_name, prd_code, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt, click_text	{{page_id}}, {{탭 이름}}, {{상품 코드}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}, {{버튼 이름}}
+7-0. 상품 상세 페이지 - 공통	바로 구매하기/원터치 결제하기 버튼 클릭 (옵션 선택 후)	click	구매 버튼	page_id, tab_name, prd_code, prd_option, total_quantity, total_price_origin, total_price_final, click_text	{{page_id}}, {{탭 이름}}, {{상품 코드}}, {{옵션}}, {{총 수량}}, {{총 금액}}, {{최대 할인가}}, {{버튼 이름}}
+7-0. 상품 상세 페이지 - 공통	장바구니 담기 버튼 클릭 (옵션 선택 후)	click	장바구니 버튼	page_id, tab_name, prd_code, prd_option, total_quantity, total_price_origin, total_price_final, click_text	{{page_id}}, {{탭 이름}}, {{상품 코드}}, {{옵션}}, {{총 수량}}, {{총 금액}}, {{최대 할인가}}, {{버튼 이름}}
+7-0. 상품 상세 페이지 - 공통	재입고 알림 신청 버튼 클릭	click	재입고 알림 신청 버튼	page_id, tab_name, prd_code, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt, click_text	{{page_id}}, {{탭 이름}}, {{상품 코드}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}, {{버튼 이름}}
+7-0. 상품 상세 페이지 - 공통	탭 클릭	click	탭	page_id, tab_name, prd_code, click_text	{{page_id}}, {{탭 이름}}, {{상품코드}}, {{클릭 탭 이름}}
+7-0. 상품 상세 페이지 - 공통	상품 클릭 (있는 정보만 수집)	click	상품	page_id, tab_name, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{탭 이름}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+7-0. 상품 상세 페이지 - 공통	찜하기 클릭 - 상품 찜하기 (있는 정보만 수집)	click	상품 찜하기	page_id, tab_name, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{탭 이름}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+7-0. 상품 상세 페이지 - 공통	찜하기 클릭 - 스토어 찜하기 (있는 정보만 수집)	click	스토어 찜하기	page_id, tab_name, area_name, store_id, store_name	{{page_id}}, {{탭 이름}}, {{영역 TEXT}}, {{스토어 id}}, {{스토어명}}
+7-0. 상품 상세 페이지 - 공통	스토어 클릭	click	스토어	page_id, tab_name, prd_code, area_name, store_id, store_name	{{page_id}}, {{탭 이름}}, {{상품코드}}, {{영역 TEXT}}, {{스토어 id}}, {{스토어명}}
+7-1. 상품 상세 페이지 - 상품상세 탭	쿠폰받기 버튼 클릭	click	쿠폰 버튼	page_id, tab_name, prd_code, click_text	{{page_id}}, {{탭 이름}}, {{상품코드}}, {{버튼 이름}}
+7-1. 상품 상세 페이지 - 상품상세 탭	리뷰 클릭	click	리뷰	page_id, tab_name, prd_code, area_name, prd_review_id, prd_review_score	{{page_id}}, {{탭 이름}}, {{상품코드}}, {{영역 TEXT}}, {{리뷰 id}}, {{별 점}}
+7-1. 상품 상세 페이지 - 상품상세 탭	배너 노출	impression		page_id, tab_name, prd_code, banner_id, banner_url, banner_order	{{page_id}}, {{탭 이름}}, {{상품코드}}, {{배너 id}}, {{배너 랜딩 url}}, {{배너 순서}}
+7-1. 상품 상세 페이지 - 상품상세 탭	배너 클릭	click	배너	page_id, tab_name, prd_code, banner_id, banner_url, banner_order	{{page_id}}, {{탭 이름}}, {{상품코드}}, {{배너 id}}, {{배너 랜딩 url}}, {{배너 순서}}
+7-2. 상품 상세 페이지 - 리뷰 탭	리뷰 클릭	click	리뷰	page_id, tab_name, prd_code, area_name, prd_review_id, prd_review_score	{{page_id}}, {{탭 이름}}, {{상품코드}}, {{영역 TEXT}}, {{리뷰 id}}, {{별 점}}
+7-3. 상품 상세 페이지 - 상품문의 탭	상품 문의 작성하기 > 버튼 클릭	click	상품 문의 버튼	page_id, tab_name, prd_code, click_text	{{page_id}}, {{탭 이름}}, {{상품코드}}, {{버튼 이름}}
+8. 장바구니 페이지	장바구니 페이지 조회	pageview		page_id, prd_code	{{page_id}}, {{상품코드}}
+8. 장바구니 페이지	구매하기 버튼 클릭 (한 상품 구매)	click	구매 버튼	page_id, prd_code, prd_brand, prd_name, prd_price_final, delivery_price, click_text	{{page_id}}, {{상품 코드}}, {{브랜드}}, {{상품명}}, {{상품금액}}, {{배송비}}, {{버튼 이름}}
+8. 장바구니 페이지	00000원 구매하기 버튼 클릭 (선택한 상품 리스트 구매)	click	구매 버튼	page_id, prd_code, prd_brand, prd_name, prd_price_final, delivery_price, total_price_origin, total_price_disc, total_delivery_price, total_price_final, click_text	{{page_id}}, {{상품 코드}}, {{브랜드}}, {{상품명}}, {{상품금액}}, {{배송비}}, {{선택상품금액}}, {{즉시할인금액}}, {{총 배송비}}, {{총 결제예정금액}}, {{버튼 이름}}
+8. 장바구니 페이지	쿠폰받기 버튼 클릭	click	쿠폰 버튼	page_id, store_id, store_name, click_text	{{page_id}}, {{스토어id}}, {{스토어명}}, {{버튼 이름}}
+8. 장바구니 페이지	상품 클릭 (있는 정보만 수집)	click	상품	page_id, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+8. 장바구니 페이지	찜하기 클릭 - 상품 찜하기 (있는 정보만 수집)	click	상품 찜하기	page_id, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+9. 주문결제 페이지	주문결제 페이지 조회	pageview		page_id, prd_code, prd_brand, prd_name, prd_price_final, delivery_price, total_price_origin, total_price_disc, use_rrpay_point, total_delivery_price, total_price_final, rrpay_point	{{page_id}}, {{상품 코드}}, {{브랜드}}, {{상품명}}, {{상품금액}}, {{배송비}}, {{총 상품 금액}}, {{총 할인 금액}}, {{라운드 페이 포인트 사용}}, {{총 배송비}}, {{총 결제 금액}}, {{보유 라운드 페이 포인트}}
+9. 주문결제 페이지	00000원 결제하기 버튼 클릭	click	결제 버튼	page_id, prd_code, prd_brand, prd_name, prd_price_final, delivery_price, total_price_origin, total_price_disc, use_rrpay_point, total_delivery_price, total_price_final, rrpay_point, pay_method, click_text	{{page_id}}, {{상품 코드}}, {{브랜드}}, {{상품명}}, {{상품금액}}, {{배송비}}, {{총 상품 금액}}, {{총 할인 금액}}, {{라운드 페이 포인트 사용}}, {{총 배송비}}, {{총 결제 금액}}, {{보유 라운드 페이 포인트}}, {{결제수단명}}, {{버튼 이름}}
+10. 주문 완료 & 결제 실패	주문 완료 페이지 조회	pageview		page_id, order_no, total_price_final, reward_price	{{page_id}}, {{주문 번호}}, {{총 결제 금액}}, {{적립예정 혜택}}
+10. 주문 완료 & 결제 실패	결제 실패 페이지 조회	pageview		page_id, fail_reason	{{page_id}}, {{결제 실패 사유}}
+11-1. 쇼핑 검색 - 검색 메인(검색 전)	검색 메인(검색 전) 페이지 조회	pageview		page_id, srch_kwd	{{page_id}}, {{검색어}}
+11-1. 쇼핑 검색 - 검색 메인(검색 전)	검색 아이콘 클릭	click	검색 아이콘	page_id, srch_kwd_type, srch_kwd	{{page_id}}, {{검색어 타입}}, {{검색어}}
+11-1. 쇼핑 검색 - 검색 메인(검색 전)	최근 검색어 클릭	click	최근 검색어	page_id, area_name, recent_kwd	{{page_id}}, {{영역TEXT}}, {{검색어}}
+11-1. 쇼핑 검색 - 검색 메인(검색 전)	추천 검색어 클릭	click	추천 검색어	page_id, area_name, rcmd_kwd, is_ad	{{page_id}}, {{영역TEXT}}, {{검색어}}, {{광고 여부}}
+11-1. 쇼핑 검색 - 검색 메인(검색 전)	퀵버튼 클릭	click	퀵버튼	page_id, area_name, click_text	{{page_id}}, {{영역TEXT}}, {{퀵버튼 이름}}
+11-1. 쇼핑 검색 - 검색 메인(검색 전)	상품 클릭 (있는 정보만 수집)	click	상품	page_id, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+11-1. 쇼핑 검색 - 검색 메인(검색 전)	찜하기 클릭 - 상품 찜하기 (있는 정보만 수집)	click	상품 찜하기	page_id, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+11-1. 쇼핑 검색 - 검색 메인(검색 전)	리뷰 클릭	click	리뷰	page_id, area_name, prd_code, prd_review_id	{{page_id}}, {{영역 TEXT}}, {{상품코드}}, {{리뷰 id}}
+11-2. 쇼핑 검색 - 검색 결과	검색 결과 페이지 조회	pageview		page_id, srch_kwd	{{page_id}}, {{검색어}}
+11-2. 쇼핑 검색 - 검색 결과	검색 아이콘 클릭	click	검색 아이콘	page_id, srch_kwd_type, srch_kwd	{{page_id}}, {{검색어 타입}}, {{검색어}}
+11-2. 쇼핑 검색 - 검색 결과	연관 검색어 클릭	click	연관 검색어	page_id, area_name, kwd	{{page_id}}, {{영역TEXT}}, {{검색어}}
+11-2. 쇼핑 검색 - 검색 결과	추천 키워드 클릭	click	추천 키워드	page_id, area_name, rcmd_kwd	{{page_id}}, {{영역TEXT}}, {{검색어}}
+11-2. 쇼핑 검색 - 검색 결과	칩버튼 클릭	click	칩버튼	page_id, area_name, click_text	{{page_id}}, {{영역TEXT}}, {{칩버튼 이름}}
+11-2. 쇼핑 검색 - 검색 결과	상품 클릭 (있는 정보만 수집)	click	상품	page_id, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+11-2. 쇼핑 검색 - 검색 결과	찜하기 클릭 - 상품 찜하기 (있는 정보만 수집)	click	상품 찜하기	page_id, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+11-2. 쇼핑 검색 - 검색 결과	배너 노출	impression		page_id, banner_id, banner_url, banner_order	{{page_id}}, {{배너 id}}, {{배너 랜딩 url}}, {{배너 순서}}
+11-2. 쇼핑 검색 - 검색 결과	배너 클릭	click	배너	page_id, banner_id, banner_url, banner_order	{{page_id}}, {{배너 id}}, {{배너 랜딩 url}}, {{배너 순서}}
+11-2. 쇼핑 검색 - 검색 결과	리뷰 클릭	click	리뷰	page_id, area_name, prd_code, prd_review_id	{{page_id}}, {{영역 TEXT}}, {{상품코드}}, {{리뷰 id}}
+11-2. 쇼핑 검색 - 검색 결과	필터 클릭	click	필터	page_id, area_name, prd_filter	{{page_id}}, {{영역 TEXT}}, {{필터 이름}}
+12-1. 카테고리 - 카테고리 목록	카테고리 목록 조회	pageview		page_id	{{page_id}}
+12-1. 카테고리 - 카테고리 목록	대카테고리 클릭	click	대카테고리	page_id, click_text, ctgr_id	{{page_id}}, {{대카테고리명}}, {{카테고리 코드}}
+12-1. 카테고리 - 카테고리 목록	중카테고리 클릭	click	중카테고리	page_id, ctgr_depth1, click_text, ctgr_id	{{page_id}}, {{대카테고리명}}, {{중카테고리명}}, {{카테고리 코드}}
+12-2. 카테고리 - 대카테고리	대카테고리 페이지 조회	pageview		page_id, ctgr_depth1, ctgr_id	{{page_id}}, {{대카테고리명}}, {{카테고리 코드}}
+12-2. 카테고리 - 대카테고리	더보기 클릭	click	중카테고리 더보기	page_id, ctgr_depth1, ctgr_id, click_text	{{page_id}}, {{대카테고리명}}, {{카테고리 코드}}, {{더보기 이름}}
+12-2. 카테고리 - 대카테고리	중카테고리 클릭	click	중카테고리	page_id, ctgr_depth1, click_text, ctgr_id	{{page_id}}, {{대카테고리명}}, {{중카테고리명}}, {{카테고리 코드}}
+12-2. 카테고리 - 대카테고리	상품 클릭 (있는 정보만 수집)	click	상품	page_id, ctgr_depth1, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{대카테고리명}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+12-2. 카테고리 - 대카테고리	찜하기 클릭 - 상품 찜하기 (있는 정보만 수집)	click	상품 찜하기	page_id, ctgr_depth1, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{대카테고리명}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+12-2. 카테고리 - 대카테고리	필터 클릭	click	필터	page_id, ctgr_depth1, area_name, prd_filter	{{page_id}}, {{대카테고리명}}, {{영역 TEXT}}, {{필터 이름}}
+12-3. 카테고리 - 중카테고리	중카테고리 페이지 조회	pageview		page_id, ctgr_depth1, ctgr_depth2, ctgr_id	{{page_id}}, {{대카테고리명}}, {{중카테고리명}}, {{카테고리 코드}}
+12-3. 카테고리 - 중카테고리	소카테고리 클릭	click	소카테고리	page_id, ctgr_depth1, ctgr_depth2, click_text, ctgr_id	{{page_id}}, {{대카테고리명}}, {{중카테고리명}}, {{소카테고리명}}, {{카테고리 코드}}
+12-3. 카테고리 - 중카테고리	상품 클릭 (있는 정보만 수집)	click	상품	page_id, ctgr_depth1, ctgr_depth2, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{대카테고리명}}, {{중카테고리명}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+12-3. 카테고리 - 중카테고리	찜하기 클릭 - 상품 찜하기 (있는 정보만 수집)	click	상품 찜하기	page_id, ctgr_depth1, ctgr_depth2, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{대카테고리명}}, {{중카테고리명}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+12-3. 카테고리 - 중카테고리	필터 클릭	click	필터	page_id, ctgr_depth1, ctgr_depth2, area_name, prd_filter	{{page_id}}, {{대카테고리명}}, {{중카테고리명}}, {{영역 TEXT}}, {{필터 이름}}
+12-4. 카테고리 - 소카테고리	소카테고리 페이지 조회	pageview		page_id, ctgr_depth1, ctgr_depth2, ctgr_depth3, ctgr_id	{{page_id}}, {{대카테고리명}}, {{중카테고리명}}, {{소카테고리명}}, {{카테고리 코드}}
+12-4. 카테고리 - 소카테고리	소카테고리 클릭	click	소카테고리	page_id, ctgr_depth1, ctgr_depth2, click_text, ctgr_id	{{page_id}}, {{대카테고리명}}, {{중카테고리명}}, {{소카테고리명}}, {{카테고리 코드}}
+12-4. 카테고리 - 소카테고리	상품 클릭 (있는 정보만 수집)	click	상품	page_id, ctgr_depth1, ctgr_depth2, ctgr_depth3, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{대카테고리명}}, {{중카테고리명}}, {{소카테고리명}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+12-4. 카테고리 - 소카테고리	찜하기 클릭 - 상품 찜하기 (있는 정보만 수집)	click	상품 찜하기	page_id, ctgr_depth1, ctgr_depth2, ctgr_depth3, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{대카테고리명}}, {{중카테고리명}}, {{소카테고리명}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+12-4. 카테고리 - 소카테고리	필터 클릭	click	필터	page_id, ctgr_depth1, ctgr_depth2, ctgr_depth3, area_name, prd_filter	{{page_id}}, {{대카테고리명}}, {{중카테고리명}}, {{소카테고리명}}, {{영역 TEXT}}, {{필터 이름}}
+13. 마이쇼핑	마이쇼핑 페이지 조회	pageview		page_id, reviewer_name, rrpay_point, balso_s_money, balso_cash, coupon_cnt, prd_review_cnt, balso_order_cnt, cart_prd_cnt, cancel_exchange_return_cnt, restock_alert_cnt, like_prd_cnt, like_store_cnt	{{page_id}}, {{리뷰어 프로필명}}, {{RR Pay 포인트}}, {{발로소득 보유 쇼핑 지원금}}, {{발로소득 보유 캐시}}, {{쿠폰}}, {{리뷰}}, {{발로소득 쇼핑 주문 내역}}, {{장바구니}}, {{취소/교환/반품}}, {{재입고 알림}}, {{찜한 상품}}, {{찜한 스토어}}
+13. 마이쇼핑	장바구니 아이콘 클릭	click	장바구니 아이콘	page_id, reviewer_name, rrpay_point, balso_s_money, balso_cash, coupon_cnt, prd_review_cnt, balso_order_cnt, cart_prd_cnt, cancel_exchange_return_cnt, restock_alert_cnt, like_prd_cnt, like_store_cnt	{{page_id}}, {{리뷰어 프로필명}}, {{RR Pay 포인트}}, {{발로소득 보유 쇼핑 지원금}}, {{발로소득 보유 캐시}}, {{쿠폰}}, {{리뷰}}, {{발로소득 쇼핑 주문 내역}}, {{장바구니 제품}}, {{취소/교환/반품}}, {{재입고 알림}}, {{찜한 상품}}, {{찜한 스토어}}
+13. 마이쇼핑	알림 아이콘 클릭	click	알림 아이콘	page_id, reviewer_name, rrpay_point, balso_s_money, balso_cash, coupon_cnt, prd_review_cnt, balso_order_cnt, cart_prd_cnt, cancel_exchange_return_cnt, restock_alert_cnt, like_prd_cnt, like_store_cnt	{{page_id}}, {{리뷰어 프로필명}}, {{RR Pay 포인트}}, {{발로소득 보유 쇼핑 지원금}}, {{발로소득 보유 캐시}}, {{쿠폰}}, {{리뷰}}, {{발로소득 쇼핑 주문 내역}}, {{장바구니}}, {{취소/교환/반품}}, {{재입고 알림}}, {{찜한 상품}}, {{찜한 스토어}}
+13. 마이쇼핑	설정 아이콘 클릭	click	설정 아이콘	page_id, reviewer_name, rrpay_point, balso_s_money, balso_cash, coupon_cnt, prd_review_cnt, balso_order_cnt, cart_prd_cnt, cancel_exchange_return_cnt, restock_alert_cnt, like_prd_cnt, like_store_cnt	{{page_id}}, {{리뷰어 프로필명}}, {{RR Pay 포인트}}, {{발로소득 보유 쇼핑 지원금}}, {{발로소득 보유 캐시}}, {{쿠폰}}, {{리뷰}}, {{발로소득 쇼핑 주문 내역}}, {{장바구니}}, {{취소/교환/반품}}, {{재입고 알림}}, {{찜한 상품}}, {{찜한 스토어}}
+13. 마이쇼핑	더보기 클릭	click	더보기	page_id, click_text	{{page_id}}, {{더보기 이름}}
+13. 마이쇼핑	상품 클릭 (있는 정보만 수집)	click	상품	page_id, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, order_date	{{page_id}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{주문일}}
+13. 마이쇼핑	찜하기 클릭 - 상품 찜하기 (있는 정보만 수집)	click	상품 찜하기	page_id, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, order_date	{{page_id}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{주문일}}
+14. 찜한 목록	찜한 목록 페이지 조회	pageview		page_id, tab_name, prd_code, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, store_id, store_name	{{page_id}}, {{탭 이름}}, {{상품 코드}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{스토어 id}}, {{스토어명}}
+14. 찜한 목록	탭 클릭	click	탭	page_id, tab_name, click_text	{{page_id}}, {{탭 이름}}, {{클릭 탭 이름}}
+14. 찜한 목록	카테고리 탭 클릭	click	카테고리 탭	page_id, tab_name, click_text	{{page_id}}, {{탭 이름}}, {{카테고리 탭 이름}}
+14. 찜한 목록	칩버튼 클릭	click	칩버튼	page_id, tab_name, click_text	{{page_id}}, {{탭 이름}}, {{칩버튼 이름}}
+14. 찜한 목록	상품 클릭 (있는 정보만 수집)	click	상품	page_id, tab_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate	{{page_id}}, {{탭 이름}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}
+14. 찜한 목록	스토어 클릭	click	스토어	page_id, tab_name, store_id, store_name	{{page_id}}, {{탭 이름}}, {{스토어id}}, {{스토어명}}
+15. 최근 본 목록	최근 본 목록 페이지 조회	pageview		page_id, area_name, prd_code, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate	{{page_id}}, {{영역 TEXT}}, {{상품 코드}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}
+15. 최근 본 목록	상품 클릭 (있는 정보만 수집)	click	상품	page_id, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate	{{page_id}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}
+15. 최근 본 목록	찜하기 클릭 - 상품 찜하기 (있는 정보만 수집)	click	상품 찜하기	page_id, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate	{{page_id}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}
+16-1. 리뷰 - 리뷰	리뷰 페이지 조회	pageview		page_id, tab_name, reviewer_name, reviewer_review_cnt, reviewer_good_cnt, prd_review_id, prd_review_score	{{page_id}}, {{탭 이름}}, {{리뷰어 프로필명}}, {{리뷰 수}}, {{칭찬 받은 수}}, {{리뷰id}}, {{별 점}}
+16-1. 리뷰 - 리뷰	상품 클릭 (있는 정보만 수집)	click	상품	page_id, tab_name, prd_code, prd_order, prd_brand, prd_name, order_date, prd_review_score	{{page_id}}, {{탭 이름}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{구매 날짜}}, {{별 점}}
+16-1. 리뷰 - 리뷰	리뷰 작성하기 클릭	click	리뷰 작성	page_id, tab_name, click_text	{{page_id}}, {{탭 이름}}, {{버튼 이름}}
+16-1. 리뷰 - 리뷰	리뷰어 클릭	click	리뷰어 프로필	page_id, tab_name, reviewer_name, reviewer_review_cnt, reviewer_good_cnt	{{page_id}}, {{탭 이름}}, {{리뷰어 프로필명}}, {{리뷰 수}}, {{칭찬 받은 수}}
+16-1. 리뷰 - 리뷰	더보기 클릭	click	리뷰어 랭킹 더보기	page_id, tab_name, click_text	{{page_id}}, {{탭 이름}}, {{더보기 이름}}
+16-2. 리뷰 - 리뷰어 랭킹	리뷰어 랭킹 페이지 조회	pageview		page_id	{{page_id}}
+16-2. 리뷰 - 리뷰어 랭킹	리뷰어 클릭	click	리뷰어 프로필	page_id, reviewer_name, reviewer_review_cnt, reviewer_good_cnt	{{page_id}}, {{리뷰어 프로필명}}, {{리뷰 수}}, {{칭찬 받은 수}}
+16-2. 리뷰 - 리뷰어 랭킹	리뷰 클릭	click	리뷰	page_id, reviewer_name, prd_review_id, prd_review_score, prd_code, prd_brand, prd_name	{{page_id}}, {{리뷰어 프로필명}}, {{리뷰id}}, {{별 점}}, {{상품코드}}, {{브랜드}}, {{상품명}}
+16-3. 리뷰 - 리뷰 프로필	리뷰어 프로필 페이지 조회	pageview		page_id, reviewer_name, reviewer_review_cnt, reviewer_good_cnt	{{page_id}}, {{리뷰어 프로필명}}, {{리뷰 수}}, {{칭찬 받은 수}}
+16-3. 리뷰 - 리뷰 프로필	상품 클릭 (있는 정보만 수집)	click	상품	page_id, reviewer_name, prd_code, prd_brand, prd_name, order_date, prd_review_score	{{page_id}}, {{리뷰어 프로필명}}, {{상품코드}}, {{브랜드}}, {{상품명}}, {{구매 날짜}}, {{별 점}}
+16-4. 리뷰 - 리뷰 상세보기	리뷰 상세보기 페이지 조회	pageview		page_id, reviewer_name, prd_review_id, prd_review_score	{{page_id}}, {{리뷰어 프로필명}}, {{리뷰 id}}, {{별 점}}
+17-0. 브랜드 스토어 - 공통	브랜드 스토어 페이지 조회	pageview		page_id, store_id, store_name, tab_name	{{page_id}}, {{스토어 id}}, {{스토어명}}, {{탭 이름}}
+17-0. 브랜드 스토어 - 공통	탭 클릭	click	탭	page_id, store_id, store_name, tab_name, click_text	{{page_id}}, {{스토어 id}}, {{스토어명}}, {{탭 이름}}, {{클릭 탭 이름}}
+17-0. 브랜드 스토어 - 공통	스토어 쿠폰받기 버튼 클릭	click	쿠폰 버튼	page_id, store_id, store_name, click_text	{{page_id}}, {{스토어 id}}, {{스토어명}}, {{버튼 이름}}
+17-0. 브랜드 스토어 - 공통	찜하기 클릭 - 스토어 찜하기 (있는 정보만 수집)	click	스토어 찜하기	page_id, store_id, store_name	{{page_id}}, {{스토어 id}}, {{스토어명}}
+17-0. 브랜드 스토어 - 공통	알림 버튼 클릭	click	알림 버튼	page_id, store_id, store_name, click_text	{{page_id}}, {{스토어 id}}, {{스토어명}}, {{버튼 이름}}
+17-1. 브랜드 스토어 - 상품	상품 클릭 (있는 정보만 수집)	click	상품	page_id, store_id, store_name, tab_name, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{스토어 id}}, {{스토어명}}, {{탭 이름}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+17-1. 브랜드 스토어 - 상품	찜하기 클릭 - 상품 찜하기 (있는 정보만 수집)	click	상품 찜하기	page_id, store_id, store_name, tab_name, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_tag, prd_review_score, prd_review_cnt, prd_is_ad	{{page_id}}, {{스토어 id}}, {{스토어명}}, {{탭 이름}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{상품 태그}}, {{별 점}}, {{리뷰 수}}, {{광고 상품 여부}}
+17-1. 브랜드 스토어 - 상품	더보기 클릭	click	더보기	page_id, store_id, store_name, tab_name, area_name, click_text	{{page_id}}, {{스토어 id}}, {{스토어명}}, {{탭 이름}}, {{영역 TEXT}}, {{더보기 이름}}
+17-1. 브랜드 스토어 - 상품	카테고리 탭 클릭	click	카테고리 탭	page_id, store_id, store_name, tab_name, click_text	{{page_id}}, {{스토어 id}}, {{스토어명}}, {{탭 이름}}, {{카테고리 탭 이름}}
+17-1. 브랜드 스토어 - 상품	필터 클릭	click	필터	page_id, store_id, store_name, tab_name, prd_filter	{{page_id}}, {{스토어 id}}, {{스토어명}}, {{탭 이름}}, {{필터 이름}}
+17-2. 브랜드 스토어 - 리뷰	상품 클릭 (있는 정보만 수집)	click	상품	page_id, store_id, store_name, tab_name, area_name, prd_code, prd_order, prd_brand, prd_name, prd_review_score	{{page_id}}, {{스토어 id}}, {{스토어명}}, {{탭 이름}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{별 점}}
+17-2. 브랜드 스토어 - 리뷰	필터 클릭	click	필터	page_id, store_id, store_name, tab_name, area_name, click_text	{{page_id}}, {{스토어 id}}, {{스토어명}}, {{탭 이름}}, {{영역 TEXT}}, {{필터 이름}}
+17-2. 브랜드 스토어 - 리뷰	칩버튼 클릭	click	칩버튼	page_id, store_id, store_name, tab_name, area_name, click_text	{{page_id}}, {{스토어 id}}, {{스토어명}}, {{탭 이름}}, {{영역 TEXT}}, {{칩버튼 이름}}
+17-3. 브랜드 스토어 - 콘텐츠	상품 클릭 (있는 정보만 수집)	click	상품	page_id, store_id, store_name, tab_name, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate	{{page_id}}, {{스토어 id}}, {{스토어명}}, {{탭 이름}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}
+17-3. 브랜드 스토어 - 콘텐츠	찜하기 클릭 - 상품 찜하기 (있는 정보만 수집)	click	상품 찜하기	page_id, store_id, store_name, tab_name, area_name, prd_code, prd_order, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate	{{page_id}}, {{스토어 id}}, {{스토어명}}, {{탭 이름}}, {{영역 TEXT}}, {{상품 코드}}, {{상품 순서}}, {{브랜드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}
+17-3. 브랜드 스토어 - 콘텐츠	필터 클릭	click	필터	page_id, store_id, store_name, tab_name, filter	{{page_id}}, {{스토어 id}}, {{스토어명}}, {{탭 이름}}, {{필터 이름}}
+17-3. 브랜드 스토어 - 콘텐츠	피드 클릭	click	피드	page_id, store_id, store_name, tab_name, feed_id, feed_writer	{{page_id}}, {{스토어 id}}, {{스토어명}}, {{탭 이름}}, {{피드 id}}, {{피드 작성자 프로필 id}}
+17-3. 브랜드 스토어 - 콘텐츠	피드 좋아요 클릭	click	피드 좋아요	page_id, store_id, store_name, tab_name, feed_id, feed_writer	{{page_id}}, {{스토어 id}}, {{스토어명}}, {{탭 이름}}, {{피드 id}}, {{피드 작성자 프로필 id}}
+18. 취소/교환/반품	취소 신청 완료 팝업 노출	popup	결제 취소 신청 완료	popup_msg	{{팝업 TEXT}}
+18. 취소/교환/반품	반품 신청 완료 팝업 노출	popup	반품 신청 완료	popup_msg	{{팝업 TEXT}}
