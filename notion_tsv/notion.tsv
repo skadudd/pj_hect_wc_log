@@ -1,55 +1,9 @@
 경로	활동	act_type	click_type	key	value
-검색 진입 (라운드 메인)	홈 상단 롤링 카드 배너 노출	impression		page_id, rcmd_kwd, banner_id, banner_url, banner_order, banner_position	{{페이지ID}}, {{추천 검색어}}, {{배너 id}}, {{배너 랜딩 url}}, {{배너 순서}}, {{배너 위치}}
-검색 진입 (라운드 메인)	홈 상단 롤링 카드 배너 클릭	click	배너	page_id, rcmd_kwd, banner_id, banner_url, banner_order, banner_position	{{페이지ID}}, {{추천 검색어}}, {{배너 id}}, {{배너 랜딩 url}}, {{배너 순서}}, {{배너 위치}}
-검색 진입 (라운드 메인)	검색 창 노출	impression	검색 창	page_id, rcmd_kwd	{{페이지ID}}, {{추천 검색어}}
-검색 진입 (라운드 메인)	검색 창 클릭	click	검색 창	page_id, rcmd_kwd, srch_kwd_type	{{페이지ID}}, {{추천 검색어}}, {{검색어 타입}}
-검색 진입 (라운드 메인)	검색 아이콘 클릭	click	검색 아이콘	page_id, rcmd_kwd	{{페이지ID}}, {{추천 검색어}}
-검색 메인 (검색 전)	검색 메인 페이지 조회	pageview		page_id	{{페이지ID}}
-검색 메인 (검색 전)	칩버튼 클릭	click	칩버튼	page_id, area_name, click_text	{{페이지ID}}, {{영역TEXT}}, {{칩버튼 이름}}
-검색 메인 (검색 전)	더보기 클릭	click	더보기	page_id, area_name	{{페이지ID}}, {{영역TEXT}}
-검색 메인 (검색 전)	인기 검색어 클릭	click	인기 검색어	page_id, area_name, kwd_rank, srch_kwd	{{페이지ID}}, {{영역TEXT}}, {{순위}}, {{검색어}}
-검색 메인 (검색 전)	챌린지 클릭	click	챌린지	page_id, area_name, chal_id	{{페이지ID}}, {{영역TEXT}}, {{챌린지ID}}
-검색 메인 (검색 전)	상품 클릭	click	상품	page_id, area_name, prd_code, prd_name, prd_price_origin, prd_price_final, prd_disc_rate	{{페이지ID}}, {{영역TEXT}}, {{상품코드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}
-검색 메인 (검색 전)	찜하기 클릭	click	상품 찜하기	page_id, area_name, prd_code, prd_name, prd_price_origin, prd_price_final, prd_disc_rate	{{페이지ID}}, {{영역TEXT}}, {{상품코드}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}
-검색 메인 (검색 전)	피드 클릭	click	피드	page_id, area_name, feed_id, feed_writer	{{페이지ID}}, {{영역TEXT}}, {{피드ID}}, {{피드 작성자 프로필ID}}
-검색 메인 (검색 전)	피드 작성자 프로필 클릭	click	피드 프로필	page_id, area_name, feed_id, feed_writer	{{페이지ID}}, {{영역TEXT}}, {{피드ID}}, {{피드 작성자 프로필ID}}
-검색 메인 (검색 전)	피드 좋아요 클릭	click	피드 좋아요	page_id, area_name, feed_id, feed_writer	{{페이지ID}}, {{영역TEXT}}, {{피드ID}}, {{피드 작성자 프로필ID}}
-검색 메인 (검색 전)	refresh 버튼 클릭	click	새로고침	page_id, click_text	{{페이지ID}}, {{버튼 이름}}
-검색 메인 (검색 전)	검색 아이콘 클릭	click	검색 아이콘	page_id, srch_kwd	{{페이지ID}}, {{검색어}}
-검색중	최근검색어 클릭	click	최근 검색어	page_id, auto_kwd_list, recent_kwd_list, recent_kwd, kwd_tag, srch_dt	{{페이지ID}}, {{자동완성 검색어 리스트}}, {{최근 검색어 리스트}}, {{최근 검색어}}, {{검색어 태그}}, {{검색 날짜}}
-검색중	자동완성 검색어 클릭	click	자동 완성 검색어	page_id, auto_kwd_list, recent_kwd_list, srch_kwd	{{페이지ID}}, {{자동완성 검색어 리스트}}, {{최근 검색어 리스트}}, {{검색어}}
-검색중	검색 아이콘 클릭	click	검색 아이콘	page_id, auto_kwd_list, recent_kwd_list, srch_kwd	{{페이지ID}}, {{자동완성 검색어 리스트}}, {{최근 검색어 리스트}}, {{검색어}}
-검색 결과 (전체)	검색 결과 페이지 조회	pageview		page_id, tab_name, srch_kwd	{{페이지ID}}, {{탭 이름}}, {{검색어}}
-검색 결과 (전체)	탭 클릭	click	탭	page_id, tab_name, srch_kwd, click_text	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{클릭 탭 이름}}
-검색 결과 (전체)	더보기 클릭	click	더보기	page_id, tab_name, srch_kwd, click_text	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{버튼 이름}}
-검색 결과 (전체)	상품 클릭	click	상품	page_id, tab_name, srch_kwd, area_name, prd_code, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_review_cnt, prd_review_score	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{영역TEXT}}, {{상품코드}}, {{브랜드명}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{리뷰 수}}, {{별점}}
-검색 결과 (전체)	찜하기 클릭	click	상품 찜하기	page_id, tab_name, kwd, area_name, prd_code, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_review_cnt, prd_review_score	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{영역TEXT}}, {{상품코드}}, {{브랜드명}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{리뷰 수}}, {{별점}}
-검색 결과 (전체)	리뷰 클릭	click	리뷰	page_id, tab_name, srch_kwd, area_name, prd_code, prd_brand, prd_name, prd_review_id, prd_review_score	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{영역TEXT}}, {{상품코드}}, {{브랜드명}}, {{상품명}}, {{리뷰ID}}, {{별점}}
-검색 결과 (전체)	챌린지 클릭	click	챌린지	page_id, tab_name, srch_kwd, area_name, chal_id	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{영역TEXT}}, {{챌린지ID}}
-검색 결과 (전체)	피드 클릭	click	피드	page_id, tab_name, srch_kwd, area_name, feed_id, feed_writer	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{영역TEXT}}, {{피드ID}}, {{피드 작성자 프로필ID}}
-검색 결과 (전체)	피드 작성자 프로필 클릭	click	피드 프로필	page_id, tab_name, srch_kwd, area_name, feed_id, feed_writer	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{영역TEXT}}, {{피드ID}}, {{피드 작성자 프로필ID}}
-검색 결과 (전체)	피드 좋아요 클릭	click	피드 좋아요	page_id, tab_name, srch_kwd, area_name, feed_id, feed_writer	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{영역TEXT}}, {{피드ID}}, {{피드 작성자 프로필ID}}
-검색 결과 (전체)	검색 아이콘 클릭	click	검색 아이콘	page_id, tab_name, srch_kwd	{{페이지ID}}, {{탭 이름}}, {{검색어}}
-검색 결과 (쇼핑)	쇼핑 검색 결과 페이지 조회	pageview		page_id, srch_kwd	{{페이지ID}}, {{검색어}}
-검색 결과 (쇼핑)	칩버튼 클릭	click	칩버튼	page_id, srch_kwd, area_name, click_text	{{페이지ID}}, {{검색어}}, {{영역TEXT}}, {{칩버튼 이름}}
-검색 결과 (쇼핑)	상품 클릭	click	상품	page_id, srch_kwd, area_name, prd_code, prd_brand, prd_name, prd_price_origin, prd_disc_rate, prd_review_cnt, prd_review_score	{{페이지ID}}, {{검색어}}, {{영역TEXT}}, {{상품코드}}, {{브랜드명}}, {{상품명}}, {{가격}}, {{할인율}}, {{리뷰 수}}, {{별점}}
-검색 결과 (쇼핑)	찜하기 클릭	click	상품 찜하기	page_id, srch_kwd, area_name, prd_code, prd_brand, prd_name, prd_price_origin, prd_disc_rate, prd_review_cnt, prd_review_score	{{페이지ID}}, {{검색어}}, {{영역TEXT}}, {{상품코드}}, {{브랜드명}}, {{상품명}}, {{가격}}, {{할인율}}, {{리뷰 수}}, {{별점}}
-검색 결과 (쇼핑)	리뷰 클릭	click	리뷰	page_id, srch_kwd, area_name, prd_code, prd_brand, prd_name, prd_review_id, prd_review_cnt, prd_review_score	{{페이지ID}}, {{검색어}}, {{영역TEXT}}, {{상품코드}}, {{브랜드명}}, {{상품명}}, {{리뷰ID}}, {{리뷰 수}}, {{별점}}
-검색 결과 (챌린지)	챌린지 검색 결과 페이지 조회	pageview		page_id, tab_name, srch_kwd	{{페이지ID}}, {{탭 이름}}, {{검색어}}
-검색 결과 (챌린지)	탭 클릭 (전체/쇼핑/챌린지/피드)	click	탭	page_id, tab_name, srch_kwd, click_text	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{클릭 탭 이름}}
-검색 결과 (챌린지)	챌린지/챌린지 이미지 클릭	click	챌린지	page_id, tab_name, srch_kwd, chal_id	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{챌린지ID}}
-검색 결과 (챌린지)	챌린지 이미지 클릭	click	챌린지 피드	page_id, tab_name, srch_kwd, chal_id, feed_id	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{챌린지ID}}, {{피드ID}}
-검색 결과 (챌린지)	검색 아이콘 클릭	click	검색 아이콘	page_id, tab_name, srch_kwd	{{페이지ID}}, {{탭 이름}}, {{검색어}}
-검색 결과 (피드)	피드 검색 결과 페이지 조회	pageview		page_id, tab_name, srch_kwd	{{페이지ID}}, {{탭 이름}}, {{검색어}}
-검색 결과 (피드)	탭 클릭 (전체/쇼핑/챌린지/피드)	click	탭	page_id, tab_name, srch_kwd, click_text	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{클릭 탭 이름}}
-검색 결과 (피드)	칩버튼 클릭	click	칩버튼	page_id, tab_name, srch_kwd, click_text	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{칩버튼 이름}}
-검색 결과 (피드)	피드 클릭	click	피드	page_id, tab_name, srch_kwd, feed_id	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{피드ID}}
-검색 결과 (피드)	피드 프로필 클릭	click	피드 프로필	page_id, tab_name, srch_kwd, feed_writer	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{유저 피드 프로필ID}}
-검색 결과 (피드)	검색 아이콘 클릭	click	검색 아이콘	page_id, tab_name, srch_kwd	{{페이지ID}}, {{탭 이름}}, {{검색어}}
-검색 결과 (결과 없음)	검색 결과 없음 페이지 조회	pageview		page_id, tab_name, srch_kwd	{{페이지ID}}, {{탭 이름}}, {{검색어}}
-검색 결과 (결과 없음)	탭 클릭 (전체/쇼핑/챌린지/피드)	click	탭	page_id, tab_name, srch_kwd, click_text	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{클릭 탭 이름}}
-검색 결과 (결과 없음)	칩버튼 클릭	click	칩버튼	page_id, tab_name, srch_kwd, area_name, click_text	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{영역TEXT}}, {{칩버튼 이름}}
-검색 결과 (결과 없음)	상품 클릭	click	상품	page_id, tab_name, srch_kwd, area_name, prd_code, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_review_cnt, prd_review_score	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{영역TEXT}}, {{상품코드}}, {{브랜드명}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{리뷰 수}}, {{별점}}
-검색 결과 (결과 없음)	찜하기 클릭	click	상품 찜하기	page_id, tab_name, srch_kwd, area_name, prd_code, prd_brand, prd_name, prd_price_origin, prd_price_final, prd_disc_rate, prd_review_cnt, prd_review_score	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{영역TEXT}}, {{상품코드}}, {{브랜드명}}, {{상품명}}, {{가격}}, {{할인 가격}}, {{할인율}}, {{리뷰 수}}, {{별점}}
-검색 결과 (결과 없음)	리뷰 클릭	click	리뷰	page_id, tab_name, srch_kwd, area_name, prd_code, prd_brand, prd_name, prd_review_id, prd_review_score	{{페이지ID}}, {{탭 이름}}, {{검색어}}, {{영역TEXT}}, {{상품코드}}, {{브랜드명}}, {{상품명}}, {{리뷰ID}}, {{별점}}
-검색 결과 (결과 없음)	검색 아이콘 클릭	click	검색 아이콘	page_id, tab_name, srch_kwd	{{페이지ID}}, {{탭 이름}}, {{검색어}}
+만보기 첫 진입	화면 조회	pageview		page_id	{{}}/{path}
+만보기 첫 진입	팝업 조회	pageview		page_id, popup_id, popup_msg, cta_text, el_order	{{}}/{path}, {{팝업ID}}, {{팝업명}}, {{CTA 텍스트}}, {{요소 순서}}
+만보기 첫 진입	화면 CTA 클릭	click	CTA	page_id, cta_id, cta_text	{{}}/{path}, {{CTA ID}}, {{CTA 텍스트}}
+만보기 화면	화면 조회	pageview		page_id	{{}}/{path}
+만보기 화면	리워드 받기 클릭	click	CTA	page_id, cta_id, cta_text, el_order, step_cnt	{{}}/{path}, {{CTA ID}}, {{CTA 텍스트}}, {{요소 순서}}, {{걸음 수}}
+만보기 퍼널	화면 조회	pageview		page_id	life/{path}
+만보기 퍼널	팝업 조회	click	popup	page_id, popup_id, popup_title, reward_price	{{}}/{path}, {{팝업ID}}, {{팝업명}}, {{금액 정보}}
+만보기 퍼널	팝업 CTA 클릭	click	popup_cta	page_id, popup_id, popup_title, click_text	{{}}/{path}, {{팝업ID}}, {{팝업명}}, {{CTA 텍스트}}
