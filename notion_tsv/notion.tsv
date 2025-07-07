@@ -1,9 +1,19 @@
 경로	활동	act_type	click_type	key	value
-만보기 첫 진입	화면 조회	pageview		page_id	{{}}/{path}
-만보기 첫 진입	팝업 조회	pageview		page_id, popup_id, popup_msg, cta_text, el_order	{{}}/{path}, {{팝업ID}}, {{팝업명}}, {{CTA 텍스트}}, {{요소 순서}}
-만보기 첫 진입	화면 CTA 클릭	click	CTA	page_id, cta_id, cta_text	{{}}/{path}, {{CTA ID}}, {{CTA 텍스트}}
-만보기 화면	화면 조회	pageview		page_id	{{}}/{path}
-만보기 화면	리워드 받기 클릭	click	CTA	page_id, cta_id, cta_text, el_order, step_cnt	{{}}/{path}, {{CTA ID}}, {{CTA 텍스트}}, {{요소 순서}}, {{걸음 수}}
-만보기 퍼널	화면 조회	pageview		page_id	life/{path}
-만보기 퍼널	팝업 조회	click	popup	page_id, popup_id, popup_title, reward_price	{{}}/{path}, {{팝업ID}}, {{팝업명}}, {{금액 정보}}
-만보기 퍼널	팝업 CTA 클릭	click	popup_cta	page_id, popup_id, popup_title, click_text	{{}}/{path}, {{팝업ID}}, {{팝업명}}, {{CTA 텍스트}}
+main/home(네이티브)	상단 라운드 아이콘 클릭	click	상단 아이콘	page_id, channel, click_text	life/main/home, Rround, {{클릭한 아이콘명}}
+main/home(네이티브)	상단 알림 버튼 클릭	click	알림	page_id, channel, click_text	life/main/home, Rround, {{클릭한 텍스트}}
+main/home(네이티브)	상단 장바구니 클릭	click	장바구니	page_id, channel, click_text	life/main/home, Rround, {{클릭한 텍스트}}
+main/home(네이티브)	GNB 클릭	click	하단 GNB	page_id, channel, click_text, gnb_text	life/main/home, Rround, {{클릭한 텍스트}}, {{gnb텍스트}}
+main/home/top_menu	상단 메뉴 조회	pageview		page_id	life/main/home/top_menu
+main/home/top_menu	상단 메뉴 클릭	click	상단 메뉴	page_id, el_order, click_text	life/main/home/top_menu, {{순서}}, {{제목 텍스트}}
+main/home/top_menu	상단 메뉴 광고 클릭	click	상단 메뉴	page_id, ad_id	life/main/home/top_menu, {{광고ID}}
+main/home/top_menu	광고 노출	impression		page_id, channel, ad_id	life/main/home/top_menu, Rround, {{광고ID}}
+main/home	상단 카드 배너 노출	impression		page_id, banner_id, banner_text, order, impression_type	life/{{path}}, {{배너ID}}, {{배너 텍스트}}, {{배너 순서}}, 메인 상단 카드 배너
+main/home	상단 카드 배너 클릭	click	메인 상단 카드 배너	page_id, banner_id, banner_url, banner_text	life/{{path}}, {{배너ID}}, {{배너 랜딩 URL}}, {{배너 텍스트}}
+main/home	상단 카드 스와이프	swipe		page_id, swipe_direct	life/{{url path}}, {{스와이프방향}}
+main/home	퀵 메뉴 클릭	click	퀵버튼	page_id, el_order, click_text	life/{{url path}}, {{요소순서}}, {{요소 텍스트}}
+main/home	블록 피드 클릭	click	피드	page_id, module_id, module_name, module_order, el_order, feed_id, feed_writer, click_text	life/{{url path}}, {{data-module}}, {{클래스네임}}, {{data-module-index}}, {{요소 순서}}, {{피드ID}}, {{생성자프로필명}}, {{텍스트}}
+main/home	블록 챌린지 클릭	click	챌린지	page_id, module_id, module_name, module_order, el_order, challengeName, chal_id, main_title, chal_join_cnt, sticker, click_text	life/{{url path}}, {{data-module}}, {{클래스네임}}, {{data-module-index}}, {{요소 순서}}, {{챌린지명}}, {{챌린지ID}}, {{홍보문구}}, {{참여자수}}, {{스티커 텍스트}}, {{해당요소 텍스트}}
+main/home	블록 스토어 클릭	click	스토어	page_id, module_id, module_name, module_order, el_order, prd_code, prd_name, prd_price_final, prd_disc_rate, prd_review_score, prd_review_cnt, prd_tag, click_text	life/{{url path}}, {{data-module}}, {{클래스네임}}, {{data-module-index}}, {{요소 순서}}, {{상품ID}}, {{상품명}}, {{할인 후 가격}}, {{할인율}}, {{리뷰 평점}}, {{리뷰 수}}, {{해시태그}}, {{요소 클릭 텍스트}}
+main/home	블록 뉴스 클릭	click	뉴스	page_id, module_id, module_name, module_order, el_order, article_id, article_title, click_text	life/{{url path}}, {{data-module}}, {{클래스네임}}, {{data-module-index}}, {{요소 순서}}, {{뉴스ID}}, {{뉴스 제목}}, {{기사설명}}
+main/home	블록 광고 클릭	click	광고	page_id, module_id, module_name, module_order, el_order, ad_id	life/{{url path}}, {{data-module}}, {{클래스네임}}, {{data-module-index}}, {{요소 순서}}, {{광고ID}}
+main/home	메인 하단 팝업 배너 클릭	click	메인 하단 팝업 배너	page_id, banner_id, banner_url, banner_text, order, banner_position	ecommerce/{{path}}, {{배너ID}}, {{배너 랜딩 URL}}, {{배너 텍스트}}, {{배너 순서}}, 커머스 메인 하단 팝업 배너
